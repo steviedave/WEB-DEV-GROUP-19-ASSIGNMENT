@@ -22,7 +22,7 @@ Future Work:
 The website is in its basic form, and the next steps involve adding more interactive elements, design enhancements, and additional content. Team members can contribute by modifying the HTML or CSS to add features like animations or more styling to improve the website.
 
 Contributors:
-	•	AmanynMohamed@gmail.com
+	•	[AmanynMohamed@gmail.com](https://github.com/amanynmohamed)
  
 
 How to View the Website:
