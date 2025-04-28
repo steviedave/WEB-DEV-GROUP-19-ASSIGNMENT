@@ -1,0 +1,193 @@
+.portfolio {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.header img {
+  max-width: 100%;
+  height: auto;
+}
+
+.intro {
+  padding: 20px;
+  text-align: left;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px;
+}
+
+.header.light {
+  background: #ffffff;
+  color: #333;
+  justify-content: space-between;
+}
+
+
+.header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.header p {
+  font-size: 1.2em;
+}
+
+.biography {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #ecf0f1;
+}
+
+.biography img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.biography h2 {
+  font-size: 1.8em;
+}
+
+.biography p {
+  font-size: 1em;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.service {
+  background: #bdc3c7;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  flex: 1;
+  margin: 10px;
+}
+
+.service h3 {
+  font-size: 1.5em;
+}
+
+.skills {
+  padding: 20px;
+  background: #ecf0f1;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.intro h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.intro p {
+  padding : 10px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #eaeaea;
+}
+
+.skills div {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.success-work {
+  padding: 20px;
+  text-align: center;
+}
+
+.success-work img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+
+  .footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .contact-info {
+    margin: 10px 0;
+}
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.footer .social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+
+

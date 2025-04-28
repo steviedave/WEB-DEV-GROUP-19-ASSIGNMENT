@@ -1,7 +1,8 @@
 # **# WEB-DEV-GROUP-19-ASSIGNMENT**
 
 ## **📜 Project Description**
-This project is a simple website developed as part of the Web Development course assignment. It provides a basic structure for our team’s online presence, built using HTML and CSS.
+
+This project is a simple website developed as part of the Web Development course assignment. It serves as a foundational structure for our team’s online presence, designed using HTML and CSS..
 
 ## **🚀 Contributions**
 
