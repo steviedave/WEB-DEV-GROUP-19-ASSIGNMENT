@@ -21,8 +21,36 @@ Future Work:
 
 The website is in its basic form, and the next steps involve adding more interactive elements, design enhancements, and additional content. Team members can contribute by modifying the HTML or CSS to add features like animations or more styling to improve the website.
 
-Contributors:
-	•	[AmanynMohamed@gmail.com](https://github.com/amanynmohamed)
+## 👥 Contributors
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <a href="https://github.com/amanynabil" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px;" alt="Amany Nabil Ahmed"/>
+        <br /><b>Amany Nabil Ahmed</b>
+      </a>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/nakhanu" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/131362156?v=4" width="100px;" alt="Sophia Nakhanu"/>
+        <br /><b>Sophia Nakhanu</b>
+      </a>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/RICCOM" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px;" alt="Eric Munjuri"/>
+        <br /><b>Eric Munjuri</b>
+      </a>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/steviedave" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/0?v=4" width="100px;" alt="Stephen David Oduor"/>
+        <br /><b>Stephen David Oduor</b>
+      </a>
+    </td>
+  </tr>
+</table>
  
 
 How to View the Website:
