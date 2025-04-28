@@ -1,195 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Watson Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Watson Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <!-- Navigation Bar -->
-        <nav>
-            <ul class="navbar">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#stats">Stats</a></li>
-                <li><a href="#success-work">Success Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+  <!-- Header Section -->
+  <header id="header">
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#biography">Biography</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#statistics">Statistics</a></li>
+        <li><a href="#success-work">Success Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-        <!-- Profile Section -->
-        <img src="John Watson.jpg" alt="John Watson" class="profile-image">
-        <h1>Hi, I'm John Watson</h1>
-        <h2>Web De</h2>
-        <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I can give your business a new creative start right away!</p>
-        <a href="mailto:example@mail.com" class="button">Hire Me</a>
-        <a href="#portfolio" class="button">My Portfolio</a>
-    </header>
+    <!-- Profile Section -->
+    <img src="images/John Watson.jpg" alt="Profile image of John Watson" class="profile-image">
+    <h1>Hi, I'm John Watson</h1>
+    <h2>Web Developer & Graphics</h2>
+    <p id="profile">I specialize in modern web development and creative graphic design. With years of experience, I bring brands to life through powerful design and seamless user experiences.</p>
+    <a href="mailto:example@mail.com" class="button">Hire Me</a>
+    <a href="#portfolio" class="button">My Portfolio</a>
+  </header>
 
+  <!-- Biography Section -->
+  <section id="biography">
+    <h2 class="section-heading">My Biography</h2>
+    <h3 id="biography-heading">A Lead UI Designer & Web Developer Based In the UK</h3>
+    <p id="biography-paragraph">I'm passionate about creating unique digital experiences. From corporate websites to vibrant portfolios, I help businesses and individuals stand out online with cutting-edge design and functionality.</p>
 
-        <!-- Brief Introduction -->
-        <h3>MY BIOGRAPHY</h3>
-        <h2>A Lead UI Designer & Web Developer Based In the UK</h2>
-        <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I can give your business a new Creative start right away! Contact me and we will discuss your projects!</p>
-        
-        <!-- Contact Information Section -->
-        <div class="contact-info">
-          <h3>Contact Information</h3>
-          <ul>
-            <li><strong>Name:</strong> John Watson</li>
-            <li><strong>From:</strong> London, UK</li>
-            <li><strong>Email:</strong> <a href="mailto:your-email@example.com">example@mail.com</a></li>
-            <li><strong>Phone:</strong> +21 234 567 8901</li>
-          </ul>
+    <!-- Contact Information -->
+    <div class="contact-info">
+      <h3>Contact Information</h3>
+      <ul>
+        <li><strong>Name:</strong> John Watson</li>
+        <li><strong>From:</strong> London, UK</li>
+        <li><strong>Email:</strong> <a href="mailto:your-email@example.com">example@mail.com</a></li>
+        <li><strong>Phone:</strong> +21 234 567 8901</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Social Media Links -->
+  <div class="socials">
+    <h3 id="socials-heading">Find me on:</h3>
+    <a href="https://www.behance.net" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/128/733/733594.png" alt="Behance logo" style="width: 24px; height: 24px; margin-right: 10px;">
+    </a>
+    <a href="https://www.linkedin.com" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt="LinkedIn logo" style="width: 24px; height: 24px; margin-right: 10px;">
+    </a>
+    <a href="https://www.facebook.com" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/128/20/20837.png" alt="Facebook logo" style="width: 24px; height: 24px; margin-right: 10px;">
+    </a>
+    <a href="https://twitter.com" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/128/5968/5968830.png" alt="Twitter logo" style="width: 24px; height: 24px;">
+    </a>
+  </div>
+
+  <!-- Hire Me and Download CV -->
+  <div class="buttons">
+    <button onclick="window.location.href='hire-me.html'"><strong>Hire Me</strong></button>
+    <button onclick="window.location.href='cv.pdf'"><strong>Download CV</strong></button>
+  </div>
+
+  <div class="image-container">
+    <img src="images/images.jpg" alt="Additional portfolio image" class="profile-image">
+  </div>
+
+  <!-- Services Section -->
+  <div  id = "services-heading"><h2>What I Do For You</h2></div>
+
+  <section id="services" class="services">
+    <div class="service-cards">
+        <div class="service-card">
+          <h4>Web Development</h4>
+          <p>Building high-performance, responsive websites that look great across all devices and deliver seamless user experiences.</p>
         </div>
-        
-        <!-- Social Media Links with Icons -->
-        <div class="socials">
-          <h3>Find me on:</h3>
-          <a href="https://www.behance.net" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/128/733/733594.png" alt="Behance" style="width: 24px; height: 24px; margin-right: 10px;">
-          </a>
-          <a href="https://www.linkedin.com" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt="LinkedIn" style="width: 24px; height: 24px; margin-right: 10px;">
-          </a>
-          <a href="https://www.facebook.com" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/128/20/20837.png" alt="Facebook" style="width: 24px; height: 24px; margin-right: 10px;">
-          </a>
-          <a href="https://twitter.com" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/128/5968/5968830.png" alt="Twitter" style="width: 24px; height: 24px;">
-          </a>
+        <div class="service-card">
+          <h4>App Development</h4>
+          <p>Creating intuitive and engaging mobile applications tailored to your audience and business goals.</p>
         </div>
-        
-        <!-- Buttons for 'Hire Me' and 'Download CV' -->
-        <div class="buttons">
-          <button onclick="window.location.href='hire-me.html'">Hire Me</button>
-          <button onclick="window.location.href='cv.pdf'">Download CV</button>
+        <div class="service-card">
+          <h4>Photography</h4>
+          <p>Professional photography services for branding, marketing, and personal projects — capturing moments that tell your story.</p>
         </div>
-    <img src="images.jpg" alt="John Watson" class="profile-image">
+      </div>
+  
+  </section> 
 
-        <!-- Services Section -->
-    <section class="services">
-        <h3>What I Do For You</h3>
-        <div class="service-cards">
-            <div class="service-card">
-                <h4>Web Development</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
-            </div>
-            <div class="service-card">
-                <h4>App Development</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
-            </div>
-            <div class="service-card">
-                <h4>Photography</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium.</p>
-            </div>
-        </div>
-        <a href="#" class="btn">More Services</a>
-    </section>
+  <div id="button-div">
+    <a href="#" class="btn">More Services</a>
+  </div>
 
-    <!-- Skills Section -->
-    <section class="skills">
-        <h2>My Skills</h2>
-     <h3>My Featured Skills</h3>
-<p>I speacialize in Branding and Strategy, and am passionate about creating Awesome Portfolio work. And i always ready to impress the audience with my Creativity.</p>
+  <!-- Skills Section -->
+  <section class="skills" id = "skills">
+    <h2>My Skills</h2>
+    <h3>My Featured Skills</h3>
+    <p>I specialize in branding and strategic design, creating powerful portfolio work that leaves a lasting impression.</p>
     <ul>
-        <li>UI/UX Design</li>
-        <li>Ideas & Technology</li>
-        <li>Branding Design</li>
-        <li>Responsive Web Design</li>
+      <li>UI/UX Design</li>
+      <li>Ideas & Technology</li>
+      <li>Branding Design</li>
+      <li>Responsive Web Design</li>
     </ul>
+  </section>
+
+  <!-- Additional Services -->
+  <section class="services">
+    <div class="service">
+      <h3>Web Development</h3>
+      <p>Delivering custom websites tailored for usability, performance, and visual impact.</p>
+    </div>
+    <div class="service">
+      <h3>Design Trends</h3>
+      <p>Keeping up-to-date with the latest trends to create modern, innovative designs.</p>
+    </div>
+    <div class="service">
+      <h3>Research & Analysis</h3>
+      <p>Analyzing user behavior and market needs to ensure designs meet business goals effectively.</p>
+    </div>
+    <div class="service">
+      <h3>Customer Support</h3>
+      <p>Providing ongoing support and improvements post-project launch to ensure continued success.</p>
+    </div>
+    <div class="service">
+      <h3>Responsive Design</h3>
+      <p>Ensuring that your website or app looks flawless on desktops, tablets, and smartphones.</p>
+    </div>
+    <div class="service">
+      <h3>PSD Design</h3>
+      <p>Delivering clean and professional PSD templates ready for development or presentation.</p>
+    </div>
 </section>
-<section class="services">
-    <div class="service">
-        <h3>Web Development</h3>
-        <p>Lorem ipsum viverra libero set. Pellen et justo, in ligula at.</p>
-    </div>
-    <div class="service">
-        <h3>Design Trends</h3>
-        <p>Lorem ipsum viverra libero set. Pellen et justo, in ligula at.</p>
-    </div>
-    <div class="service">
-        <h3>Research & Analysis</h3>
-        <p>Lorem ipsum viverra libero set. Pellen et justo, in ligula at.</p>
-    </div>
-    <div class="service">
-        <h3>Customer Support</h3>
-        <p>Lorem ipsum viverra libero set. Pellen et justo, in ligula at.</p>
-    </div>
-    <div class="service">
-        <h3>Responsive Design</h3>
-        <p>Lorem ipsum viverra libero set. Pellen et justo, in ligula at.</p>
-    </div>
-    <div class="service">
-        <h3>PSD Design</h3>
-        <p>Lorem ipsum viverra libero set. Pellen et justo, in ligula at.</p>
-    </div>
-    <img src="John Watson.jpg" alt="John Watson" class="profile-image">
-</section>
-<section class="statistics">
+
+<div class="image-container">
+    <img src="images/John Watson.jpg" alt="John Watson in action" class="profile-image">
+</div>
+
+  <!-- Statistics Section -->
+  <section id="statistics" class="statistics">
     <h2>My Achievements</h2>
     <div class="stat">
-        <span>135</span>
-        <p>Finished Projects</p>
+      <span>135</span>
+      <p>Finished Projects</p>
     </div>
     <div class="stat">
-        <span>225</span>
-        <p>Working Hours</p>
+      <span>225</span>
+      <p>Working Hours</p>
     </div>
     <div class="stat">
-        <span>115</span>
-        <p>Online Support</p>
+      <span>115</span>
+      <p>Online Support Sessions</p>
     </div>
     <div class="stat">
-        <span>272</span>
-        <p>Happy Customers</p>
+      <span>272</span>
+      <p>Happy Customers</p>
     </div>
-</section>
-<section class="portfolio">
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="success-work" class="portfolio">
     <h2>My Success Work</h2>
     <div class="portfolio-grid">
-        <div class="portfolio-item"><img src="image1.jpg" alt="Project 1"></div>
-        <div class="portfolio-item"><img src="image2.jpg" alt="Project 2"></div>
-        <div class="portfolio-item"><img src="image3.jpg" alt="Project 3"></div>
-        <div class="portfolio-item"><img src="image4.jpg" alt="Project 4"></div>
-        <div class="portfolio-item"><img src="image5.jpg" alt="Project 5"></div>
-        <div class="portfolio-item"><img src="image6.jpg" alt="Project 6"></div>
+      <div class="portfolio-item">
+        <img src="images/corporate website design.jfif" alt="Project 1 - Corporate website design">
+        <p>Corporate website design</p>
     </div>
-</section>
-<footer>
+      <div class="portfolio-item">
+        <img src="images/branding project image.jfif" alt="Project 2 - Branding project">
+        <p>Branding Project</p>
+    </div>
+      <div class="portfolio-item">
+        <img src="images/photography campaign.jfif" alt="Project 3 - Photography campaign">
+        <p>Photography Campaign</p>
+    </div>
+      <div class="portfolio-item">
+        <img src="images/mobile app design.jfif" alt="Project 4 - Mobile app design">
+        <p>Mobile App Design</p>
+    </div>
+      <div class="portfolio-item">
+        <img src="images/ecommerce website.jfif" alt="Project 5 - E-commerce website">
+        <p>E-Commerce Website</p>
+    </div>
+      <div class="portfolio-item">
+        <img src="images/portfolio showcase.jfif" alt="Project 6 - Portfolio showcase">
+        <p>Portfolio Showcase</p>
+    </div>
+    </div>
+  </section>
+
+  <!-- First Footer Section -->
+  <footer>
     <div class="footer-logos">
-        <img src="logo1.png" alt="Logo 1">
-        <img src="logo2.png" alt="Logo 2">
-        <img src="logo3.png" alt="Logo 3">
+      <h2 id = "partners-heading">My Partners</h2>
+      <img src="images/logo1.png" alt="Partner logo 1">
+      <img src="images/logo2.png" alt="Partner logo 2">
+      <img src="images/logo3.png" alt="Partner logo 3">
     </div>
-</footer>
+  </footer>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>📞 +12 345 678 910</p>
-        <p>✉️ <a href="mailto:info@example.com">info@example.com</a></p>
-        <p>🏠 208 Avenue street, UK - 62617</p>
-    </section>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>📞 +12 345 678 910</p>
+    <p>✉️ <a href="mailto:info@example.com">info@example.com</a></p>
+    <p>🏠 208 Avenue Street, UK - 62617</p>
+  </section>
 
-    <!-- Footer Section -->
-    <footer>
-        <div class="container">
-            <h1>UI Portfolio</h1>
-            <p>© 2022 UI Portfolio. All Rights Reserved</p>
-            <div class="social-icons">
-                <a href="#">🔗</a>
-                <a href="#">🔗</a>
-                <a href="#">🔗</a>
-                <a href="#">🔗</a>
-            </div>
-        </div>
-    </footer>
+  <!-- Final Footer -->
+  <footer>
+    <div class="container">
+      <h1>UI Portfolio</h1>
+      <p>© 2022 UI Portfolio. All Rights Reserved.</p>
+      <div class="social-icons">
+        <a href="#">🔗</a>
+        <a href="#">🔗</a>
+        <a href="#">🔗</a>
+        <a href="#">🔗</a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
