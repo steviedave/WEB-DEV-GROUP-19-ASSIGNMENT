@@ -1,6 +1,6 @@
 # **WEB-DEV-GROUP-19-ASSIGNMENT
-**## **
-📜 Project Description**
+
+**## 📜 Project Description** 
 This project is a simple website developed as part of the Web Development course assignment. It serves as a foundational structure for our team’s online presence, designed using HTML and CSS.
 
 ## **🚀 Contributions**
@@ -10,8 +10,8 @@ Properly linked style.css to index.html for correct styling.
 Ran the project using Live Server to preview the website in the browser and ensured real-time visibility of changes.
 
 ## **🛠️ Technologies Used**
-HTML
-CSS
+ - HTML
+ - CSS
 
 ## **✨ Features**
 Clean and responsive layout.
@@ -58,5 +58,5 @@ Open the index.html file.
 Run the file using Live Server to view the website in your browser.
 
 ### *🧾 License*
-This project is for educational purposes only as part of a Web Development course.
+This project is for educational purposes as part of Web Development course.
 Feel free to use and modify it for learning and personal development!
