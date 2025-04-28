@@ -1,23 +1,25 @@
 # **WEB-DEV-GROUP-19-ASSIGNMENT
 
 **## 📜 Project Description** 
+
 This project is a simple website developed as part of the Web Development course assignment. It serves as a foundational structure for our team’s online presence, designed using HTML and CSS.
 
 ## **🚀 Contributions**
-Updated index.html and style.css.
-Ensured the HTML file has the necessary structure for a functional webpage.
-Properly linked style.css to index.html for correct styling.
-Ran the project using Live Server to preview the website in the browser and ensured real-time visibility of changes.
+
+- Updated index.html and style.css.
+- Ensured the HTML file has the necessary structure for a functional webpage.
+- Properly linked style.css to index.html for correct styling.
+- Ran the project using Live Server to preview the website in the browser and ensured real-time visibility of changes.
 
 ## **🛠️ Technologies Used**
  - HTML
  - CSS
 
 ## **✨ Features**
-Clean and responsive layout.
-Properly linked external CSS.
-Live Server integration for smooth real-time viewing.
-Team information included.
+- Clean and responsive layout.
+ - Properly linked external CSS.
+  - Live Server integration for smooth real-time viewing.
+   - Team information included.
 
 ## **👥 Contributors**
 
@@ -51,12 +53,14 @@ Team information included.
 </table>
 
 ## **🖥️ How to View the Website**
-To view the website on your local machine:
-Clone the repository to your local system.
-Open the project folder in Visual Studio Code (VS Code).
-Open the index.html file.
-Run the file using Live Server to view the website in your browser.
+- To view the website on your local machine:
+- Clone the repository to your local system.
+- Open the project folder in Visual Studio Code (VS Code).
+- Open the index.html file.
+- Run the file using Live Server to view the website in your browser.
 
 ### *🧾 License*
-This project is for educational purposes as part of Web Development course.
-Feel free to use and modify it for learning and personal development!
+This project was created solely for educational purposes as part of the Web Development course.  
+You are welcome to use, modify, and build upon this project for learning, practice, and personal development.  
+Attribution is appreciated but not required.  
+Let's keep learning and building together!
