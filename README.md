@@ -1,32 +1,25 @@
-# **# WEB-DEV-GROUP-19-ASSIGNMENT**
-
-## **📜 Project Description**
-
-This project is a simple website developed as part of the Web Development course assignment. It serves as a foundational structure for our team’s online presence, designed using HTML and CSS..
+# **WEB-DEV-GROUP-19-ASSIGNMENT
+**## **
+📜 Project Description**
+This project is a simple website developed as part of the Web Development course assignment. It serves as a foundational structure for our team’s online presence, designed using HTML and CSS.
 
 ## **🚀 Contributions**
-
-Updated index.html and index.css
+Updated index.html and style.css.
 Ensured the HTML file has the necessary structure for a functional webpage.
-Linked style.css to index.html:
-Properly linked the style.css file to index.html to ensure the page displays with the correct styling.
-Used Live Server:
-Ran the project using Live Server to preview the website in the browser, ensuring real-time visibility of changes.
+Properly linked style.css to index.html for correct styling.
+Ran the project using Live Server to preview the website in the browser and ensured real-time visibility of changes.
 
-**## 🛠️ Technologies Used**
-
+## **🛠️ Technologies Used**
 HTML
 CSS
 
-**## 🔮 Future Work**
+## **✨ Features**
+Clean and responsive layout.
+Properly linked external CSS.
+Live Server integration for smooth real-time viewing.
+Team information included.
 
-The website is in its basic form. Future work includes:
-Adding interactive elements, such as buttons and form elements.
-Enhancing the design with animations, transitions, and improved styling.
-Adding more content to better represent the team and its services.
-Team members are encouraged to contribute by modifying the HTML or CSS to enhance the website further.
-
-## ## 👥 Contributors
+## **👥 Contributors**
 
 <table>
   <tr>
@@ -57,10 +50,13 @@ Team members are encouraged to contribute by modifying the HTML or CSS to enhanc
   </tr>
 </table>
 
-**## 🖥️ How to View the Website**
-
+## **🖥️ How to View the Website**
 To view the website on your local machine:
 Clone the repository to your local system.
-Open the project folder in VS Code.
+Open the project folder in Visual Studio Code (VS Code).
 Open the index.html file.
 Run the file using Live Server to view the website in your browser.
+
+### *🧾 License*
+This project is for educational purposes only as part of a Web Development course.
+Feel free to use and modify it for learning and personal development!
